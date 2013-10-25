@@ -130,8 +130,9 @@
     },
 
     "tag-param-name": {
-      "name": "entity.name.param.slim",
-      "match": "(?<=[\\s\\[\\{\\(])\\w[\\w:-]*(?==)"
+      "name": "entity.other.attribute-name.id.slim",
+      "match": "(?<=[\\s\\[\\{\\(])\\w[\\w:-]*(?==)",
+      "patterns": [ { "include": "source.ruby.rails" } ]
     },
 
     "tag-param-value": {
